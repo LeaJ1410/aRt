@@ -1,0 +1,19 @@
+title: "ReadMe"
+author: "Lea Jordan"
+date: "28-01-2022"
+
+This function will create some amazing artwork for you by entering any number close to your heart: 
+your student ID, the birthday of your best friend, your zip code etc. 
+After, just sit back, wait for your special artwork to be generated (hopefully your R won't crash like mine did),
+and look at the most beautiful art you have ever laid your eyes on.   
+
+You need to install the following packages for the function:
+install.packages("ambient")
+install.packages("here")
+install.packages("tidyverse")
+install.packages("scico")
+
+Examples: 
+make_art(5)
+
+make_art(10)
